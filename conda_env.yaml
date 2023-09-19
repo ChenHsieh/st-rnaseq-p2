@@ -1,0 +1,12 @@
+name: st-rnaseq-p2
+channels:
+  - defaults
+  - anaconda
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - streamlit
+  - pip
+  - pip:
+    - pydeseq2
